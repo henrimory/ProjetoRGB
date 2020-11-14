@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gerador RGB</title>
+    <script src="js/script.js"></script>
+    <link rel="stylesheet" href="css/styles.css">
+</head >
+<body onload="geraCor()"">
+    <h1>
+        Gerador de RGB
+    </h1>
+    <div id="code"></div>    
+        R: <input type="range" onchange="geraCor()" id="red" min="0" max="255" value="0"/>   <input id="txtRed" disabled=""/><br>
+        G: <input type="range" onchange="geraCor()" id="green" min="0" max="255" value="0"/> <input id="txtGreen" disabled=""/><br>
+        B: <input type="range" onchange="geraCor()" id="blue" min="0" max="255" value="0"/> <input id="txtBlue" disabled=""/><br>
+    
+    <br>
+    <div id="cor">
+       
+    </div>
+    
+</body>
+</html>

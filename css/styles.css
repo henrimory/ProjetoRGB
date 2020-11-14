@@ -1,0 +1,30 @@
+body
+{
+  background-color:rgb(114,170, 166);
+  font-size: 20pt;
+}
+h1{
+    text-align:center;
+  }
+#cor{
+  padding: 10% 0;
+  width: 100%;
+  
+  background: #ccc;
+}
+
+input{
+  vertical-align: middle;
+  font-weight: bold;
+  border: 2px solid #008000;
+  padding: 10;
+  background-color: #e3e9e3;
+  width:50px;
+} 
+input[type=range]{
+  height: 0px; 
+  margin: 10px 0;
+  margin-left: 50px;
+  width: 30%;
+  }
+
